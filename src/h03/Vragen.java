@@ -4,18 +4,15 @@ import java.awt.*;
 import java.applet.*;
 
 
-//een klasse met de naam Show van het type Applet.
 public class Vragen extends Applet {
 
-    //een (lege) methode die de Applet initialiseert
     TextField text1,text2;
     public void init() {
         setBackground(Color.darkGray);
 
 
     }
-    //een methode die de inhoud van het scherm tekent
-    //Ik heb hier ook de vragen beantwoord van h02. Leuk om in een applet uitvoeren !
+    //Ik heb hier ook de vragen beantwoord van h03.
     public void paint(Graphics g) {
         g.setColor(Color.white);
         g.drawString("Vragen", 50, 60 );
