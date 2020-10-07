@@ -35,11 +35,12 @@ public class Vragen extends Applet {
 
         g.drawString("Die kun je herkennen omdat ze altijd moeten eindigen met een puntkomma ';'", 55, 227 );
 
+        
         g.drawString("Waartoe dienen de import-opdrachten?';'", 50, 245 );
-
-
+        
         g.drawString("Die opdrachten importeren een klassenbibliotheek waarin voorgedefinieerde codes te halen zijn waardoor je dus meer klassen kunt gebruik in je code';'", 55, 262 );
 
+        
         g.drawString("Wat is een methode?", 50, 285 );
         g.drawString("Een methode is een stuk code die alleen werkt ls hij wordt opgeroepen.", 55, 303 );
         g.drawString("In een methode kun je ook data doorgeven, ook wel bekend als 'Parameters' ", 55, 316 );
